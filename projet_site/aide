@@ -1,0 +1,113 @@
+<!--# STRUCTURE
+        <header></header>
+        <nav></nav>
+        <main></main>
+        <footer></footer>
+
+        # DECORATIONS
+        <div></div> BLOCK
+        <span></span> INLINE
+
+        # TEXTS - style inline
+        <p><span></span></p>
+        <h1></h1>
+        ...
+        <h6></h6>
+        <ul>
+            <li>element 1</li>
+            <li>element 2</li>
+        </ul>
+        <ol>
+            <li>element 1</li>
+            <li>element 2</li>
+        </ol>
+
+        # TEXTS - style block
+        <blockquote></blockquote>
+        <a href=""></a>
+        <button type="submit"></button>
+        <button type="button"></button>
+
+        # DIVERS
+        <img src="" alt="">-->
+
+
+               <div class="story">
+            <div class="story-content ">
+                <div class="container-fluid character-container">
+                    <div class="col">
+                        <h1 class="story-title">Empire</h1>
+                    </div>
+                    <div class="col justify-content-center">
+                        <div class="row justify-content-center">
+                            <div class="pt-5 pb-5 text-cente d-flex justify-content-center col-md-1 col-lg-2"> 
+                                <a  DISABLED="true" href="#"><div class="button-principaux">Empire</div></a>    
+                            </div>
+                            <div class="pt-5 pb-5 text-center d-flex justify-content-center col-md-1 col-lg-2"> 
+                                <a  href="/boss/betes.php"><div class="button-secondaire">Betes</div></a>    
+                            </div>
+                            <div class="pt-5 pb-5 text-center d-flex justify-content-center col-md-1 col-lg-2"> 
+                                <a  href="personnages-secondaires.php"><div class="button-secondaire">Droïdes</div></a>    
+                            </div>
+                            <div class="pt-5 pb-5 text-center d-flex justify-content-center col-md-1 col-lg-2"> 
+                                <a  href="personnages-secondaires.php"><div class="button-secondaire">Autres</div></a>    
+                            </div>
+                        </div>
+                    </div>    
+                    <div class="row justify-content-center">
+                        <div class="col-md-6 col-lg-3 col-xl-3">
+                            <div class="card mb-4">
+                                <div class="card" style="width: 100%;">
+                                    <img class="card-img-top" src="../images/articles/thumb/boss/seconde.jpg" alt="Card image cap"  >
+                                    <div class="card-body">
+                                        <p class="card-text text-secondary">seconde soeur</p>
+                                    </div>       
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 col-xl-3" > 
+                            <div class="card mb-4">
+                                <div class="card" style="width: 100%;">
+                                    <img class="card-img-top" src="../images/articles/thumb/boss/neuvieme.jpg" alt="Card image cap" >
+                                    <div class="card-body">
+                                        <p class="card-text text-secondary">neuvième soeur</p>
+                                    </div>       
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 col-xl-3">
+                            <div class="card mb-4">
+                                <div class="card" style="width: 100%;">
+                                    <img class="card-img-top" src="../images/articles/thumb/boss/vehicules.jpg" alt="Card image cap" >
+                                    <div class="card-body">
+                                        <p class="card-text text-secondary">véhicules</p>
+                                    </div>       
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-md-6 col-lg-4 col-xl-3">
+                            <div class="card mb-4">
+                                <div class="card" style="width: 100%;">
+                                    <img class="card-img-top" src="../images/articles/thumb/boss/trooper.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <p class="card-text text-secondary">troopers</p>
+                                    </div>       
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3">
+                            <div class="card mb-4">
+                                <div class="card" style="width: 100%;">
+                                    <img class="card-img-top" src="../images/articles/thumb/boss/darth_vader.png" alt="Card image cap">
+                                    <div class="card-body">
+                                        <p class="card-text text-secondary">Final boss</p>
+                                    </div>       
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>

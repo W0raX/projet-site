@@ -1,0 +1,378 @@
+/* GENERAL */
+body{
+    width: auto;
+}
+a{
+    font-family: "star jedi hollow";
+    font-size: 16pt;
+    color: white;
+}
+p{
+    font-size: 14pt;
+    font-family: "Roboto thin";
+}
+
+h1{
+    font-family: "star jedi hollow";
+    text-align: center;
+    color: white;
+    font-size: 40pt;
+}
+h2{
+    font-family: "star jedi hollow";
+    text-align: center;
+    color: white;
+}
+a:link{
+    text-decoration:none;
+}
+.button-principaux{
+    width: 200px;
+    height: 50px;
+    font-size: 20pt;
+    transition: 0.8s;
+    font-family: roboto thin;
+    border: solid #c9ae00;
+    background-color: gold;
+    color: black;
+}
+.button-secondaire{
+    border: solid white;
+    width: 200px;
+    height: 50px;
+    font-size: 20pt;
+    transition: 0.8s;
+    font-family: roboto thin;
+}
+.button-secondaire:hover{
+    border: solid #c9ae00;
+    background-color: gold;
+    color: black;
+}
+@media( max-width:1290px ) {
+    .navcat {
+        display: inline-block;
+    }
+}
+/*.btn-primary {
+
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+
+}*/
+
+/* HEADER */
+main {
+    padding-top: 56px;
+}
+@media( min-width:990px ) {
+    main {
+        padding-top: 115px;
+    }
+}
+
+.header {
+    background-color : #08080b;
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    height: 56px;
+}
+.header .navmenu {
+    background-color: #000;
+}
+.header .header-logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    top: 50%;
+    height: 56px;
+    width: 200px;
+    z-index: 2;
+}
+.header .header-logo img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.header .navbar-brand {
+    display: none;
+}
+@media( min-width:990px ) {
+    .header .navbar-brand {
+        display: block;
+    }
+    .header .header-logo {
+        display: none;
+    }
+}
+
+
+
+/* FOOTER */
+.imgfooter{
+    position: relative;
+    width: 100%;
+}
+
+/* ELEMENT VIDEO */
+.video {
+    width: 100%;
+    padding-top: 56.3%;
+    height: 0;
+    position: relative;
+    background: #000;
+}
+.video video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+/* ACHETEZ LE JEU */
+
+.button-buy{
+    border: solid white;
+    width: 500px;
+    height: 80px;
+    font-size: 30pt;
+    transition: 0.8s;
+}
+.button-buy:hover{
+    border: solid #c9ae00;
+    background-color: gold;
+    color: black;
+}
+/* ELEMENT INTRODUCTION */
+.introduction {
+    background-image: url(./images/design/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height : 600px;
+}
+.introduction-content {
+    width: 100%;
+    color: white;
+    position: relative;
+    z-index:2;
+    font-size:100%;
+    text-align: center;
+    display: column;
+    text-align: center;
+    padding: 0 30px;
+}
+.inroduction-title {
+    margin-bottom: 30px;
+}
+
+/* ELEMENT ACTUALITE */
+.actuality {
+    background-color:#2e2e2e;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.actuality-container {
+    max-width: 1300px;
+}
+.actuality-title {
+    font-family: "star jedi hollow";
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.background-udark {
+    background-color:#18181d;
+}
+.actuality-more{
+    font-family: roboto-thin;
+}
+/*ELEMENT HISTOIRE */
+.story-img{
+    background-image: url(./images/articles/thumb/histoire/histoire1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 900px;
+}
+.story-title{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.story{
+    background-image: url(./images/design/background-full-full.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    vertical-align: top;
+    justify-content: center;
+}
+.story-content {
+    width: 100%;
+    color: white;
+    position: relative;
+    z-index:2;
+    font-size:100%;
+    text-align: center;
+    display: block;
+    padding: 0 30px 30px;
+}
+.story .history-container img {
+    width: 100%;
+}
+.text-story{
+    /*border:solid yellow;*/
+    align-items: center;
+}
+.story-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+@media( max-width:880px ) {
+    .story-container {
+        display: block;
+        justify-content: center;
+    }
+    .col-4{
+        max-width:100% ;
+    }
+}
+
+
+/* PERSONNAGES PRINCAPAUX */
+.character-img{
+    background-image: url(./images/articles/thumb/personnages/background-cover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 900px;
+}
+.character-container {
+    max-width: 1450px;
+}
+.card{
+    transition: 0.3s;
+    cursor: pointer;
+}
+.character-card-container:hover{
+    background-color: #b9e6fa;
+}
+.character-card-content:hover{
+    background-color: #4cc2f5;
+}
+/* BOSS */
+.boss-img{
+    background-image: url(./images/articles/thumb/boss/background-boss.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 900px;
+}
+.boss-card-container:hover{
+    transform: scale(1.02);
+    background-color: #fcbbbb;
+
+}
+.boss-card-content:hover{
+    background-color: #db7b7b;
+}
+/* TECHNIQUES */
+.skill-img{
+    background-image: url(./images/articles/thumb/techniques/saber.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 900px;
+}
+.skill2-img{
+    background-image: url(./images/articles/thumb/techniques/force.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 900px;
+}
+.skill3-img{
+    background-image: url(./images/articles/thumb/techniques/sante.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 900px;
+}
+.skill-tree{
+    padding-bottom: 50px;
+}
+.skill-content {
+    width: 100%;
+    color: white;
+    position: relative;
+    z-index:2;
+    font-size:100%;
+    text-align: center;
+    display: block;
+    padding: 0 30px 30px;
+}
+.cardtech{
+    color: black;
+}
+.rowtech{
+    padding-bottom: 50px;
+}
+.lastrow{
+    position: relative;
+    vertical-align: top;
+}
+.lastcard{
+    width: 67.762%;
+}
+@media( min-width:586px ) {
+    .lastrow{
+        display: block;
+    }
+}
+
+@media( max-width:586px ) {
+    .lastcard{
+        width: 100%;
+    }
+}
+.lastrow-container{
+    justify-content: center;
+}
+/* Personalisé */
+.text-custom{
+    padding-top: 50px;
+}
+.perso-img{
+background-image: url(./images/articles/thumb/perso/perso.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 800px;
+}
